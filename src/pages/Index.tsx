@@ -29,7 +29,7 @@ const Index = () => {
               <Accessibility className="h-4.5 w-4.5 text-background" />
             </div>
             <h1 className="text-xl font-semibold text-foreground tracking-tight">
-              NBC Accessibility Guidelines
+              Archistandards
             </h1>
           </div>
           <p className="text-sm text-muted-foreground max-w-md mx-auto">
