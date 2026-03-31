@@ -1,8 +1,8 @@
 import { useMemo, useState } from "react";
-import Fuse from "fuse.js";
+import Fuse, { type IFuseOptions } from "fuse.js";
 import { guidelines, type Guideline } from "@/data/guidelines";
 
-const fuseOptions: Fuse.IFuseOptions<Guideline> = {
+const fuseOptions: IFuseOptions<Guideline> = {
   keys: [
     { name: "title", weight: 0.3 },
     { name: "keywords", weight: 0.25 },
