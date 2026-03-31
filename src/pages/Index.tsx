@@ -85,7 +85,7 @@ const Index = () => {
       {/* Footer */}
       <footer className="border-t border-border py-6 px-4 text-center">
         <p className="text-xs text-muted-foreground">
-          NBC Accessibility Guidelines Reference · For informational purposes only
+          Archistandards · Accessibility Guidelines Reference · For informational purposes only
         </p>
       </footer>
     </div>
